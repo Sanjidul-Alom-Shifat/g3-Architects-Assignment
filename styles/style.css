@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ----------
+banner section start
+------------- */
+
+/* navigation bar */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 7rem 15rem;
+}
+/* .header-container{
+    background: red;
+} */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+    
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #131313;
+}
+.nav-option ul{
+    display: flex;
+    padding: 10px;
+}
+.nav-option ul li {
+    display: block;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* banner heading */
+.banner-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.banner-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 16px 18px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+}
+/* banner image part*/
+.banner-image-part img{
+    width: 100%;
+}
+
+/* ----------
+banner section end
+------------- */
+
+/* ----------
+main section start
+------------- */
+
+main{
+    background: #FFFFFF;
+}
+/* features-section start */
+.features-section{
+    display: flex;
+    padding: 50px 160px;
+    align-items: center;
+}
+.features-image-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.features-image img{
+    width: 230px;
+    height: 230px;
+}
+/* features image section */
+.features-heading-section{
+    margin-left: 50px;
+}
+.features-section-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.title-1{
+    color: #131313;
+    font-weight: 700;
+}
+.title-2{
+    color: #FF900E;
+    font-weight: 700;
+}
+.features-section-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* features section end  */
+
+/* experience section start */
+.experience-section{
+    display: flex;
+    padding: 50px 110px 0 110px;
+}
+.experience-section-details{
+    margin-top: 13px;
+    width: 50%;
+    margin-right: 105px;
+}
+.experience-section-title{
+    font-weight: 700;
+    font-size: 38px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left:15px ; 
+}
+.experience-section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.experience-section-detail{
+    padding: 25px;
+    box-shadow: 0px 6px 50px rgba(218, 213, 213, 0.895);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.title-name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.title-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* experience image */
+.experience-image{
+    width: 530px; 
+}
+.experience-image img{
+    width: 100%;
+    height: 830px;
+}
+.experience-section-button{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    right: 60px;
+    bottom: 90px;
+    width: 220px;
+    height: 140px;
+    border: none;
+}
+.experience-section-button span{
+    font-weight: 600;
+    font-size: 50px;
+}
+/* experience section start */
+
+/* Skills section start */
+.what-i-do{
+    margin-top: 20px;
+}
+.section-title-i{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF900E;
+}
+.section-comment-i{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto 50px auto;
+}
+.t-skills{
+    display: flex;
+    gap: 24px;
+    padding: 0 100px;
+    margin-bottom: 130px;
+}
+
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0 ,0.60);
+    border-radius: 6px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px; 
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #181818;
+}
+.skill-comment{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+/* Skills section end */
+
+/* my awards section start */
+.awards-title-section{
+    padding-left: 105px;
+}
+.award-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+.award-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 18px;
+}
+.award-list{
+    display: flex;
+    padding: 70px 125px 70px 125px; 
+    gap: 126px;
+    margin-bottom: 100px;
+}
+.award{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding: 50px;
+    transition: transform .7s ease-in-out;
+}
+.award:hover{
+    transform: rotate(360deg);
+    color: #FF900E;
+}
+.award img{
+    width: 45.22px;
+    height: 45.22px;
+}
+.award-point{
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+}
+.award-detail{
+    font-weight: 600;
+    font-size: 18px;
+    color: #727272;
+}
+/* my award section end */
+
+/* Sponspors section start */
+.sponspors-section{
+    text-align: center;
+}
+.sponspors-title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+}
+.sponspors-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.sponspors-details{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sponspor{
+    width: 166.76px;
+    height: 50px;
+    mix-blend-mode: luminosity;
+}
+.sponspor img{
+    width: 100%;
+}
+/* ----------
+main section end
+------------- */
+
+/* ----------
+footer section start
+------------- */
+.footer-section{
+    padding: 130px 162px;
+}
+.ending-part{
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+}
+.ending-part-description{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding: 56px 237px;
+}
+/* ----------
+footer section end
+------------- */
+
+@media only screen and (max-width:576px){
+    .hide{
+        display: none;
+    }
+    header{
+        padding: 0;
+    }
+    .header{
+        padding: 1rem 1.5rem;
+    }
+    .nav-title{
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #131313;
+    }
+    .banner-image-part img{
+        width: 100%;
+        padding: 1rem 0rem 2rem 0rem;
+    }
+    .nav-option ul{
+        flex-direction: column;
+        margin-left: -2.5rem;
+        gap: 1rem;
+        background: #ffa623;
+        padding: 25px;
+    }
+    .nav-option ul li{
+        margin-left: 10px;
+        color: #fff;
+    }   
+    .features-image-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-image img{
+        width: 100%;
+    }
+    .features-section{
+        flex-direction: column;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .experience-section{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .experience-image img{
+        width: 100%;
+    }
+    .experience-section-details {
+        margin-top: 40px;
+        width: 100%;
+        margin-right: 105px;
+    }
+    .experience-image{
+        width: 100%; 
+    }
+    .experience-section-button{
+        font-weight: 500;
+        font-size: 25px;
+        color: #FFFFFF;
+        background: #FF900E;
+        border-radius: 8px;
+        position: relative;
+        right: -62px;
+        bottom: -23px;
+        width: 220px;
+        height: 140px;
+        border: none;
+    }
+    .t-skills{
+        flex-direction: column;
+    }
+    .section-comment-i{
+        width: 100%;
+    }
+    .award-list{
+        flex-direction: column;
+    }
+    .awards-title-section{
+        padding: 2rem 1rem 1rem 2rem;
+    }
+    .award-list{
+        display: flex;
+        padding: 70px 96px 52px 163px;
+        gap: 26px;
+        margin-bottom: 100px;
+    }
+    .sponspors-details{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponspor img{
+        width: 100%;
+        gap: 3rem;
+    }
+    .footer-section{
+        padding: 3rem 0;
+    }
+    .ending-part-description{
+        padding: 3rem 0rem;
+        font-size: 1rem;
+    }
+}
